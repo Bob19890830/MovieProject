@@ -1,0 +1,63 @@
+
+.App-header {
+  background-color: white;
+  color: black;
+}
+
+.logo{
+  width: 10%;
+  height: auto;
+}
+
+.navigation{
+  display: flex;
+  flex-direction: row;
+  left: 10px;
+  top:10px;
+  background-color: dodgerblue;
+}
+
+.tab{
+  padding: 20px;
+  font-size:20px;
+}
+
+.tab:hover{
+  cursor: pointer;
+  color:red;
+}
+
+.page-button:hover{
+  cursor: pointer;
+  color:red;
+}
+
+.category{
+  margin-left:35px;
+}
+
+.movie-title{
+  margin-top:10px;
+}
+
+.movie-title:hover{
+  cursor: pointer;
+  color:red;
+}
+
+.movie-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.details-container{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: 20px;
+}
+
+
+
