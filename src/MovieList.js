@@ -2,8 +2,6 @@ import {useState, useEffect} from "react";
 import {useHistory} from "react-router-dom";
 import axios from "axios";
 
-import MovieDetails from "./MovieDetails";
-
 const MovieList = (props) => {
 
     const API_KEY = "dc3b33a1778d623937ff76aaf6e6080c";
